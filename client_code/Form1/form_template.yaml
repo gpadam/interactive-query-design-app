@@ -54,10 +54,10 @@ components:
     name: primary_color_1
     layout_properties: {grid_position: 'VHBFAP,QZGTAP'}
     event_bindings: {click: primary_color_1_click}
-  - type: Label
+  - type: RichText
     properties: {}
     name: query
-    layout_properties: {grid_position: 'JIVOSU,HZLBVU'}
+    layout_properties: {grid_position: 'MTGEAX,MKMXEC'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
