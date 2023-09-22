@@ -1,7 +1,12 @@
 allow_embedding: false
-package_name: Material_Design_1
-name: Material Design 1
+package_name: Interactive_query_design
+name: Interactive query design
 startup_form: Form1
+uplink_visible: true
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
-services: []
+metadata: {title: Interactive query design, description: Generate query terms from SR titles and KQs}
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
