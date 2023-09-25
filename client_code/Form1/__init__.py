@@ -16,4 +16,4 @@ class Form1(Form1Template):
                                 self.KQ.text)
     if query:
       self.query.visible = True
-      self.query = query()
+      self.query.text = query[2]
