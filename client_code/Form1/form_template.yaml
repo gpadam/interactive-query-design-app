@@ -54,6 +54,39 @@ components:
     name: primary_color_1
     layout_properties: {grid_position: 'VHBFAP,QZGTAP'}
     event_bindings: {click: primary_color_1_click}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'The query based on the title alone is:', font_size: null,
+      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_3
+    layout_properties: {grid_position: 'XJVRBT,NNKCEA'}
+  - type: TextArea
+    properties: {}
+    name: result1
+    layout_properties: {grid_position: 'LGVRWY,QAMPLX'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'The query based on the key questions alone is:', font_size: null,
+      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_4
+    layout_properties: {grid_position: 'PJJMWY,FIYUIQ'}
+  - type: TextArea
+    properties: {}
+    name: result2
+    layout_properties: {grid_position: 'ERUGXP,JRAMTW'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'The query based on the title and key questions is:', font_size: null,
+      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_5
+    layout_properties: {grid_position: 'INEJZX,YRJLSP'}
+  - type: TextArea
+    properties: {}
+    name: result3
+    layout_properties: {grid_position: 'VEFUAL,FZEPAT'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
