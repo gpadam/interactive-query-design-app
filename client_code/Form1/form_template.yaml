@@ -67,17 +67,6 @@ components:
     layout_properties: {grid_position: 'LGVRWY,QAMPLX'}
   - type: Label
     properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
-      visible: true, text: 'The query based on the key questions alone is:', font_size: null,
-      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
-      background: '', bold: false, underline: false, icon: ''}
-    name: label_4
-    layout_properties: {grid_position: 'PJJMWY,FIYUIQ'}
-  - type: TextArea
-    properties: {}
-    name: result2
-    layout_properties: {grid_position: 'ERUGXP,JRAMTW'}
-  - type: Label
-    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
       visible: true, text: 'The query based on the title and key questions is:', font_size: null,
       font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
       background: '', bold: false, underline: false, icon: ''}
